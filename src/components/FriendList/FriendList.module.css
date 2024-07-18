@@ -1,0 +1,13 @@
+.list {
+  gap: 8px;
+  max-width: 600px;
+  display: flex;
+  margin: 30px auto;
+  border-radius: 16px;
+  color: rgb(70, 70, 70);
+  background-color: #fafafa;
+}
+
+.item {
+  width: calc((100% - 32px) / 4);
+}
