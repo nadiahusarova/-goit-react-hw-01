@@ -1,5 +1,5 @@
 import Profile from "./Profile/Profile";
-// import FriendList from "./FriendList/FriendList";
+import FriendList from "./FriendList/FriendList";
 // import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import "../index.css";
 import userData from "../assets/userData.json";
@@ -16,8 +16,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
-      {/* <FriendList friends={friends} />
-      <TransactionHistory items={transactions} /> */}
+      <FriendList friends={friends} />
+      {/* <TransactionHistory items={transactions} /> */}
     </main>
   );
 };

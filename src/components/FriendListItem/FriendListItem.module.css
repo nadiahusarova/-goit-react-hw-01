@@ -1,0 +1,31 @@
+.wrap {
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100px;
+}
+
+.avatar {
+  width: 64px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.nikname {
+  font-size: 20px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.status.online {
+  color: green;
+}
+
+.status.offline {
+  color: red;
+}
